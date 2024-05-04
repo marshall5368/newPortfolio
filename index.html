@@ -14,10 +14,10 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#aboutme">About</a></li>
                 <li><a href="#Skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
+                <li><a href="#Projects">Projects</a></li>
                 <li><a href="#contacts">Contact</a></li>
 
-                <i class="fa-regular fa-lightbulb"></i>
+                <i class="fa-regular fa-lightbulb"  onclick="Darkmode()"></i>
                 
 
             </ul>
@@ -25,10 +25,10 @@
                 <li><a href="#home" onclick="list()">Home</a></li>
                 <li><a href="#aboutme" onclick="list()">About</a></li>
                 <li><a href="#Skills" onclick="list()">Skills</a></li>
-                <li><a href="#projects" onclick="list()">Projects</a></li>
+                <li><a href="#Projects" onclick="list()">Projects</a></li>
                 <li><a href="#contacts" onclick="list()">Contact</a></li>
 
-                <i class="fa-regular fa-lightbulb" onclick="darkmode()"></i>
+                <i class="fa-regular fa-lightbulb" onclick="Darkmode()"></i>
                 
 
             </ul>
@@ -43,20 +43,20 @@
        </div>
 
     <div class="aboutme" id="aboutme">
-        <h1 class="title">
+        <h1 class="title" id="title">
             About me
         </h1>
         <div class="aboutContainer">
                 <div class="photoSection">
                 <img src="src\profile.jpg" alt="">
                 </div>
-            <div class="textSection">
+            <div class="textSection" id="textAbout">
             <h1 class="name">I'am Kent Clarence Evangelista</h1>
             <h2 class="education">I'am a first year BSIT students <br>
                 I'am 18 Years Old</h2>
             <p class="description">I'm a dedicated college student with a robust proficiency in front-end development, adeptly handling HTML, CSS, and JavaScript. Currently honing my skills in React. With a strong foundation in programming, I effectively manage my time to tackle both projects and life commitments with precision.</p>
-                    <div class="links">
-                     <a href="https://www.facebook.com/kent.evangelista.96"><i class="fa-brands fa-square-facebook"></i></a>
+                    <div class="links" id="link">
+                    <a href="https://www.facebook.com/kent.evangelista.96"><i class="fa-brands fa-square-facebook"></i></a>
                     <a href="https://www.youtube.com/@yashu_gaming9442"><i class="fa-brands fa-youtube"></i></a>
                     <a href="https://www.instagram.com/kayceelyoo/?hl=en"><i class="fa-brands fa-square-instagram"></i></a>
                     <a href="https://www.tiktok.com/@yashu_ken"><i class="fa-brands fa-tiktok"></i></a>
@@ -70,7 +70,7 @@
            
             
     <div class="skills" id="Skills">
-            <h1 class="title">
+            <h1 class="title" id="title">
                 Skills
             </h1>
             <div class="cardContainer">
@@ -157,7 +157,7 @@
     </div>
 
     <div class="projects" id="Projects">
-        <h1 class="title">Projects</h1>
+        <h1 class="titleProject" id="text">Projects</h1>
 
             <div class="projectCard">
                 <div class="cardP">
@@ -258,11 +258,11 @@
 
 
         <div class="contacts" id="contacts">
-            <h1 class="title">Contacts</h1>
+            <h1 class="title" id="title">Contacts</h1>
             
             <div class="containerContacts">
                 <div class="inputSect">
-                    <h1 class="title">Contact Me</h1>
+                    <h1 class="text">Contact Me</h1>
                     <input type="text" placeholder="Name">
                     <input type="email" placeholder="Email">
                     <input type="text" placeholder="Message">
